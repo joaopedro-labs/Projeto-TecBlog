@@ -1,0 +1,217 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="TecBlog — O seu Blog de Tecnologia: Inteligência Artificial, Jogos, Celulares, Informática e Eletrônicos." />
+  <title>TecBlog - O seu Blog de Tecnologia</title>
+  <link rel="stylesheet" type="text/css" href="css/estilo.css" />
+</head>
+<body>
+
+  <!-- Cabeçalho e Menu de Categorias -->
+  <header id="area-cabecalho">
+    <div id="area-logo">
+      <h1>Tec<span class="branco">Blog</span></h1>
+    </div>
+    <nav id="area-menu" aria-label="Menu de categorias">
+      <a href="#todos" class="menu-filtro ativo" data-categoria="todos">Home</a>
+      <a href="#jogos" class="menu-filtro" data-categoria="jogos">Jogos</a>
+      <a href="#celulares" class="menu-filtro" data-categoria="celulares">Celulares</a>
+      <a href="#informatica" class="menu-filtro" data-categoria="informatica">Informática</a>
+      <a href="#eletronicos" class="menu-filtro" data-categoria="eletronicos">Eletrônicos</a>
+    </nav>
+  </header>
+
+  <!-- Barra de Pesquisa -->
+  <div class="barra-busca-container">
+    <div class="barra-busca">
+      <input type="search" id="campoBusca" placeholder="🔎 Pesquisar artigos por título ou assunto (ex.: IA, GPU, Mobile, Linux)..." aria-label="Pesquisar artigos" />
+    </div>
+  </div>
+
+  <!-- Área Principal -->
+  <main id="area-principal">
+    <div id="area-postagens">
+
+      <!-- Postagem 1: Informática & IA -->
+      <article class="postagem" id="post-1" data-categoria="informatica">
+        <span class="categoria-badge">Informática &amp; IA</span>
+        <h2>Como a Inteligência Artificial e o Python estão transformando o Desenvolvimento Web</h2>
+        <span class="data-postagem">Postado em 06 de novembro de 2026 • Por João Pedro Araujo</span>
+        <img src="imagens/imagem1.svg" alt="Notebook exibindo linhas de código e automação com IA" />
+        <p>
+          A integração de assistentes de Inteligência Artificial e scripts de automação em Python consolidou um novo padrão de produtividade para equipes de engenharia de software. Tarefas repetitivas de coleta de dados, geração de relatórios e validação de APIs agora são executadas em segundos.
+        </p>
+        <div class="texto-expandido" id="expand-1">
+          <p>
+            Além da automação de back-end, o uso combinado de bancos de dados relacionais bem modelados (como MySQL com Triggers e Stored Procedures) garante que aplicações web mantenham alta integridade e desempenho mesmo sob grande volume de acessos simultâneos.
+          </p>
+        </div>
+        <button type="button" class="btn-leia-mais" data-target="expand-1">Leia mais</button>
+      </article>
+
+      <!-- Postagem 2: Jogos -->
+      <article class="postagem" id="post-2" data-categoria="jogos">
+        <span class="categoria-badge">Jogos</span>
+        <h2>Nova geração de GPUs e Ray Tracing em tempo real: o que muda para os gamers e devs</h2>
+        <span class="data-postagem">Postado em 04 de novembro de 2026 • Por Redação TecBlog</span>
+        <img src="imagens/imagem2.svg" alt="Controle gamer e placa gráfica moderna" />
+        <p>
+          As novas arquiteturas gráficas trouxeram avanços expressivos em renderização neural e reconstrução de quadros via IA, permitindo taxas de atualização estáveis em 4K mesmo em títulos de mundo aberto exigentes.
+        </p>
+        <div class="texto-expandido" id="expand-2">
+          <p>
+            Para desenvolvedores que utilizam motores modernos como Unreal Engine 5 e Godot, as novas APIs gráficas reduzem gargalos de CPU e facilitam a criação de iluminação global dinâmica sem comprometer a performance em PCs intermediários.
+          </p>
+        </div>
+        <button type="button" class="btn-leia-mais" data-target="expand-2">Leia mais</button>
+      </article>
+
+      <!-- Postagem 3: Celulares -->
+      <article class="postagem" id="post-3" data-categoria="celulares">
+        <span class="categoria-badge">Celulares &amp; Mobile</span>
+        <h2>Smartphones com NPU dedicada e o crescimento de apps multiplataforma com Flutter</h2>
+        <span class="data-postagem">Postado em 01 de novembro de 2026 • Por João Pedro Araujo</span>
+        <img src="imagens/imagem3.svg" alt="Ilustração de smartphone moderno executando aplicativo" />
+        <p>
+          Os processadores móveis atuais contam com unidades de processamento neural (NPUs) capazes de executar modelos de linguagem e visão computacional diretamente no aparelho, sem depender exclusivamente da nuvem.
+        </p>
+        <div class="texto-expandido" id="expand-3">
+          <p>
+            No desenvolvimento mobile, frameworks como o Flutter (Dart) continuam liderando a criação de interfaces fluidas a 120Hz com código único para Android e iOS, além de excelente suporte a persistência local de dados.
+          </p>
+        </div>
+        <button type="button" class="btn-leia-mais" data-target="expand-3">Leia mais</button>
+      </article>
+
+      <!-- Postagem 4: Eletrônicos -->
+      <article class="postagem" id="post-4" data-categoria="eletronicos">
+        <span class="categoria-badge">Eletrônicos &amp; Infraestrutura</span>
+        <h2>Mini PCs e Servidores Domésticos com Linux Ubuntu: monte seu laboratório de estudos</h2>
+        <span class="data-postagem">Postado em 28 de outubro de 2026 • Por João Pedro Araujo</span>
+        <img src="imagens/imagem4.svg" alt="Servidores Linux e infraestrutura de rede" />
+        <p>
+          Montar um Home Lab utilizando Mini PCs de baixo consumo energético com Linux Ubuntu Server tornou-se uma das melhores formas práticas de estudar redes, bancos de dados MySQL e deploy de aplicações web.
+        </p>
+        <div class="texto-expandido" id="expand-4">
+          <p>
+            Com menos de 15W de consumo, é possível manter serviços rodando 24/7 para hospedar bancos de dados de estudo, rotinas automatizadas em Python (via Cron) e servidores de desenvolvimento locais.
+          </p>
+        </div>
+        <button type="button" class="btn-leia-mais" data-target="expand-4">Leia mais</button>
+      </article>
+
+    </div>
+
+    <!-- Barra Lateral -->
+    <aside id="area-lateral">
+      <div class="conteudo-lateral">
+        <h3>Postagens Recentes</h3>
+        <div class="postagem-lateral">
+          <p>IA e Python transformando o Desenvolvimento Web moderno.</p>
+          <a href="#post-1" data-goto-cat="informatica">Ir para o artigo →</a>
+        </div>
+        <div class="postagem-lateral">
+          <p>Nova geração de GPUs e Ray Tracing em tempo real.</p>
+          <a href="#post-2" data-goto-cat="jogos">Ir para o artigo →</a>
+        </div>
+        <div class="postagem-lateral">
+          <p>Smartphones com NPU e apps com Flutter/Dart.</p>
+          <a href="#post-3" data-goto-cat="celulares">Ir para o artigo →</a>
+        </div>
+      </div>
+
+      <div class="conteudo-lateral">
+        <h3>Categorias</h3>
+        <ul class="lista-categorias">
+          <li><a href="#todos" class="menu-filtro" data-categoria="todos"><span>Todas as matérias</span> <span>(4)</span></a></li>
+          <li><a href="#jogos" class="menu-filtro" data-categoria="jogos"><span>Jogos</span> <span>(1)</span></a></li>
+          <li><a href="#celulares" class="menu-filtro" data-categoria="celulares"><span>Celulares</span> <span>(1)</span></a></li>
+          <li><a href="#informatica" class="menu-filtro" data-categoria="informatica"><span>Informática &amp; IA</span> <span>(1)</span></a></li>
+          <li><a href="#eletronicos" class="menu-filtro" data-categoria="eletronicos"><span>Eletrônicos</span> <span>(1)</span></a></li>
+        </ul>
+      </div>
+
+      <div class="conteudo-lateral">
+        <h3>Sobre o Autor</h3>
+        <p style="font-size: 0.88rem;">
+          Desenvolvido por <strong>João Pedro Araujo</strong> — Desenvolvedor Full-Stack Jr. (Python, Java, JS, Flutter &amp; MySQL).
+        </p>
+        <p style="margin-top: 0.5rem; font-size: 0.88rem;">
+          <a href="https://github.com/joaopedro-labs" target="_blank" rel="noopener noreferrer" style="color: #b45309; font-weight: 700; text-decoration: none;">GitHub @joaopedro-labs ↗</a>
+        </p>
+      </div>
+    </aside>
+  </main>
+
+  <footer id="rodape">
+    <p>© 2026 <strong>TecBlog</strong> — Todos os direitos reservados • Desenvolvido por <a href="https://github.com/joaopedro-labs" target="_blank" rel="noopener noreferrer">João Pedro Araujo (@joaopedro-labs)</a></p>
+  </footer>
+
+  <script>
+    // Filtro de categorias pelo menu superior e lateral
+    const botoesFiltro = document.querySelectorAll('.menu-filtro');
+    const postagens = document.querySelectorAll('.postagem');
+    const campoBusca = document.getElementById('campoBusca');
+
+    function filtrarArtigos(categoriaSelecionada) {
+      botoesFiltro.forEach((link) => {
+        if (link.getAttribute('data-categoria') === categoriaSelecionada && link.closest('#area-menu')) {
+          link.classList.add('ativo');
+        } else if (link.closest('#area-menu')) {
+          link.classList.remove('ativo');
+        }
+      });
+
+      postagens.forEach((post) => {
+        const cat = post.getAttribute('data-categoria');
+        if (categoriaSelecionada === 'todos' || cat === categoriaSelecionada) {
+          post.classList.remove('oculta');
+        } else {
+          post.classList.add('oculta');
+        }
+      });
+    }
+
+    botoesFiltro.forEach((link) => {
+      link.addEventListener('click', (e) => {
+        e.preventDefault();
+        const cat = link.getAttribute('data-categoria') || 'todos';
+        filtrarArtigos(cat);
+      });
+    });
+
+    // Busca instantânea por texto
+    campoBusca?.addEventListener('input', () => {
+      const termo = campoBusca.value.toLowerCase().trim();
+      postagens.forEach((post) => {
+        const conteudo = post.textContent.toLowerCase();
+        if (conteudo.includes(termo)) {
+          post.classList.remove('oculta');
+        } else {
+          post.classList.add('oculta');
+        }
+      });
+    });
+
+    // Botões "Leia mais" expansíveis
+    document.querySelectorAll('.btn-leia-mais').forEach((btn) => {
+      btn.addEventListener('click', () => {
+        const targetId = btn.getAttribute('data-target');
+        const bloco = document.getElementById(targetId);
+        if (!bloco) return;
+        const abriu = bloco.classList.toggle('aberto');
+        btn.textContent = abriu ? 'Mostrar menos ↑' : 'Leia mais';
+      });
+    });
+
+    // Links da barra lateral "Ir para o artigo"
+    document.querySelectorAll('[data-goto-cat]').forEach((link) => {
+      link.addEventListener('click', () => {
+        filtrarArtigos('todos');
+      });
+    });
+  </script>
+</body>
+</html>

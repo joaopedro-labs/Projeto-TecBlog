@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 320" width="100%" height="100%" font-family="Segoe UI, Inter, Arial, sans-serif">
+  <defs>
+    <linearGradient id="bg2" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#1e1b4b" />
+      <stop offset="100%" stop-color="#312e81" />
+    </linearGradient>
+  </defs>
+  <rect width="640" height="320" fill="url(#bg2)" />
+  <!-- Gamepad / Graphics Card Visual -->
+  <rect x="190" y="75" width="260" height="145" rx="35" fill="#0f172a" stroke="#a78bfa" stroke-width="3" />
+  <circle cx="255" cy="147" r="24" fill="#1e293b" stroke="#f7b600" stroke-width="2.5" />
+  <path d="M245 147 L265 147 M255 137 L255 157" stroke="#f7b600" stroke-width="3.5" stroke-linecap="round" />
+  <circle cx="375" cy="132" r="9" fill="#34d399" />
+  <circle cx="395" cy="150" r="9" fill="#38bdf8" />
+  <circle cx="355" cy="150" r="9" fill="#f43f5e" />
+  <circle cx="375" cy="168" r="9" fill="#f7b600" />
+  <text x="320" y="275" fill="#f8fafc" font-size="16" font-weight="700" text-anchor="middle">Nova Geração de GPUs &amp; Engines Gráficas em Tempo Real</text>
+</svg>

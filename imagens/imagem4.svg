@@ -1,0 +1,26 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 320" width="100%" height="100%" font-family="Segoe UI, Inter, Arial, sans-serif">
+  <defs>
+    <linearGradient id="bg4" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#1e293b" />
+      <stop offset="100%" stop-color="#090d16" />
+    </linearGradient>
+  </defs>
+  <rect width="640" height="320" fill="url(#bg4)" />
+  <!-- Server Racks -->
+  <rect x="180" y="55" width="280" height="50" rx="8" fill="#0f172a" stroke="#38bdf8" stroke-width="2" />
+  <circle cx="208" cy="80" r="6" fill="#10b981" />
+  <circle cx="228" cy="80" r="6" fill="#38bdf8" />
+  <rect x="260" y="74" width="170" height="12" rx="4" fill="#334155" />
+
+  <rect x="180" y="120" width="280" height="50" rx="8" fill="#0f172a" stroke="#f7b600" stroke-width="2" />
+  <circle cx="208" cy="145" r="6" fill="#10b981" />
+  <circle cx="228" cy="145" r="6" fill="#f7b600" />
+  <rect x="260" y="139" width="170" height="12" rx="4" fill="#334155" />
+
+  <rect x="180" y="185" width="280" height="50" rx="8" fill="#0f172a" stroke="#a78bfa" stroke-width="2" />
+  <circle cx="208" cy="210" r="6" fill="#10b981" />
+  <circle cx="228" cy="210" r="6" fill="#a78bfa" />
+  <rect x="260" y="204" width="170" height="12" rx="4" fill="#334155" />
+
+  <text x="320" y="282" fill="#f8fafc" font-size="16" font-weight="700" text-anchor="middle">Infraestrutura Linux, Cloud &amp; Automação de Servidores</text>
+</svg>
